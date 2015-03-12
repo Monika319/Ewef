@@ -12,6 +12,15 @@ rc('font',family="Arial")
 files = [ f for f in os.listdir( os.curdir ) if os.path.isfile(f) and f.lower().endswith(".txt") ]
 #files=["Pomiar5CzF.txt"]
 for NazwaPliku in files:
+    jhjgh
+    jsgkhhjkfshklkfslkjkjklj
+    jlkjjkljfs
+    ljfls
+    kljlksfdjklfds
+    lkjfs
+    kjgs
+    jhkjsdhk
+    kj
     Plik=open(NazwaPliku)
     #print DeltaT
     Dane=Plik.readlines()#[4:]
@@ -20,6 +29,7 @@ for NazwaPliku in files:
     Plik.close()
     Y=np.zeros(len(Dane))
     for i in range(len(Dane)):
+        #oba są intami
         Y[i]=float(Dane[i].split()[2].replace(",","."))
     X=np.zeros_like(Y)
     for i in range(len(X)):
